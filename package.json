@@ -1,0 +1,46 @@
+{
+    "author": "jvanlangen@live.nl",
+    "dependencies": {},
+    "keywords": [],
+    "name": "crypto-values",
+    "pebble": {
+        "displayName": "Crypto Values",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "N",
+            "V"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Icon",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[A-Z,0-9,a-z\\s\\.():]",
+                    "file": "fonts/DefaultFont",
+                    "name": "DEFAULTFONT_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "3edc3fdf-3510-4a40-b3f0-674b2ed27ad1",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
